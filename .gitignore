@@ -1,0 +1,65 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---------- Entornos virtuales ----------
+.venv/
+venv/
+env/
+.env
+.python-version
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ---------- Datos y caches de librerías ----------
+# Hugging Face datasets / modelos
+.cache/
+huggingface/
+# gensim downloader (GloVe, etc.) se guarda en ~/gensim-data, pero por si acaso:
+gensim-data/
+# Datos locales
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.arrow
+
+# ---------- Modelos y artefactos de entrenamiento ----------
+models/
+checkpoints/
+runs/
+wandb/
+lightning_logs/
+*.model
+*.kv
+*.bin
+*.vec
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+
+# ---------- Resultados / figuras generadas ----------
+outputs/
+figures/
+*.log
+
+# ---------- Editores y sistema operativo ----------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
