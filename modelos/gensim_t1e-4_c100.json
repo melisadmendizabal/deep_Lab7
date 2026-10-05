@@ -1,0 +1,456 @@
+{
+ "config": {
+  "dim": 100,
+  "window": 5,
+  "neg": 5,
+  "t": 0.0001,
+  "min_count": 5,
+  "lr": 0.002,
+  "epochs": 3,
+  "frac": 1.0,
+  "batch": 4096,
+  "name": "t1e-4",
+  "alpha": 0.025,
+  "min_alpha": 0.0001,
+  "workers": 23
+ },
+ "tokens_corpus": 83753871,
+ "vocab_size": 195026,
+ "epochs": [
+  {
+   "epoch": 1,
+   "loss_gensim": 21331930.0,
+   "tiempo_s": 82.85684657096863,
+   "sem": 0.16066411238825032,
+   "syn": 0.24251968503937008,
+   "total": 0.2161873459326212,
+   "ws353": 0.5722338430804663,
+   "ws353_oov": 0.0,
+   "vecinos": {
+    "king": [
+     [
+      "ætheling",
+      0.785
+     ],
+     [
+      "deheubarth",
+      0.785
+     ],
+     [
+      "kinsman",
+      0.774
+     ],
+     [
+      "lulach",
+      0.772
+     ],
+     [
+      "eadberht",
+      0.771
+     ]
+    ],
+    "france": [
+     [
+      "belgium",
+      0.773
+     ],
+     [
+      "spain",
+      0.737
+     ],
+     [
+      "portugal",
+      0.717
+     ],
+     [
+      "italy",
+      0.714
+     ],
+     [
+      "gijón",
+      0.713
+     ]
+    ],
+    "computer": [
+     [
+      "computers",
+      0.791
+     ],
+     [
+      "sgi",
+      0.773
+     ],
+     [
+      "mainframe",
+      0.76
+     ],
+     [
+      "point-and-click",
+      0.749
+     ],
+     [
+      "programmable",
+      0.744
+     ]
+    ],
+    "good": [
+     [
+      "darn",
+      0.754
+     ],
+     [
+      "relish",
+      0.743
+     ],
+     [
+      "awfully",
+      0.737
+     ],
+     [
+      "wirkola",
+      0.736
+     ],
+     [
+      "shitty",
+      0.722
+     ]
+    ],
+    "january": [
+     [
+      "october",
+      0.846
+     ],
+     [
+      "august",
+      0.836
+     ],
+     [
+      "february",
+      0.82
+     ],
+     [
+      "april",
+      0.808
+     ],
+     [
+      "december",
+      0.807
+     ]
+    ],
+    "run": [
+     [
+      "bmt",
+      0.689
+     ],
+     [
+      "subways",
+      0.685
+     ],
+     [
+      "partway",
+      0.683
+     ],
+     [
+      "50-day",
+      0.678
+     ],
+     [
+      "100-day",
+      0.676
+     ]
+    ]
+   }
+  },
+  {
+   "epoch": 2,
+   "loss_gensim": 21106402.0,
+   "tiempo_s": 82.23683643341064,
+   "sem": 0.27535121328224776,
+   "syn": 0.3788007268322229,
+   "total": 0.3455217748562038,
+   "ws353": 0.6469852558799665,
+   "ws353_oov": 0.0,
+   "vecinos": {
+    "king": [
+     [
+      "ætheling",
+      0.759
+     ],
+     [
+      "sweyn",
+      0.751
+     ],
+     [
+      "sechnaill",
+      0.748
+     ],
+     [
+      "eógan",
+      0.747
+     ],
+     [
+      "oswine",
+      0.745
+     ]
+    ],
+    "france": [
+     [
+      "belgium",
+      0.809
+     ],
+     [
+      "portugal",
+      0.773
+     ],
+     [
+      "luxembourg",
+      0.745
+     ],
+     [
+      "spain",
+      0.743
+     ],
+     [
+      "germany",
+      0.731
+     ]
+    ],
+    "computer": [
+     [
+      "computers",
+      0.835
+     ],
+     [
+      "realtime",
+      0.805
+     ],
+     [
+      "sgi",
+      0.781
+     ],
+     [
+      "mainframe",
+      0.774
+     ],
+     [
+      "computing",
+      0.766
+     ]
+    ],
+    "good": [
+     [
+      "decent",
+      0.762
+     ],
+     [
+      "darn",
+      0.748
+     ],
+     [
+      "bummed",
+      0.737
+     ],
+     [
+      "crummy",
+      0.735
+     ],
+     [
+      "shitty",
+      0.726
+     ]
+    ],
+    "january": [
+     [
+      "november",
+      0.883
+     ],
+     [
+      "february",
+      0.864
+     ],
+     [
+      "october",
+      0.854
+     ],
+     [
+      "august",
+      0.85
+     ],
+     [
+      "december",
+      0.85
+     ]
+    ],
+    "run": [
+     [
+      "tottenville",
+      0.69
+     ],
+     [
+      "whistle-stop",
+      0.689
+     ],
+     [
+      "rainout",
+      0.68
+     ],
+     [
+      "motorcoach",
+      0.676
+     ],
+     [
+      "rosecroft",
+      0.673
+     ]
+    ]
+   }
+  },
+  {
+   "epoch": 3,
+   "loss_gensim": 21352826.0,
+   "tiempo_s": 83.06351375579834,
+   "sem": 0.3471264367816092,
+   "syn": 0.5192004845548153,
+   "total": 0.4638455217748562,
+   "ws353": 0.6735606987117312,
+   "ws353_oov": 0.0,
+   "vecinos": {
+    "king": [
+     [
+      "eógan",
+      0.772
+     ],
+     [
+      "ætheling",
+      0.771
+     ],
+     [
+      "guthfrithson",
+      0.771
+     ],
+     [
+      "donnchada",
+      0.767
+     ],
+     [
+      "harthacnut",
+      0.757
+     ]
+    ],
+    "france": [
+     [
+      "belgium",
+      0.823
+     ],
+     [
+      "spain",
+      0.801
+     ],
+     [
+      "portugal",
+      0.777
+     ],
+     [
+      "italy",
+      0.759
+     ],
+     [
+      "netherlands",
+      0.759
+     ]
+    ],
+    "computer": [
+     [
+      "computers",
+      0.843
+     ],
+     [
+      "computing",
+      0.776
+     ],
+     [
+      "realtime",
+      0.768
+     ],
+     [
+      "simulation",
+      0.767
+     ],
+     [
+      "sgi",
+      0.763
+     ]
+    ],
+    "good": [
+     [
+      "decent",
+      0.755
+     ],
+     [
+      "excellent",
+      0.733
+     ],
+     [
+      "nerve-wracking",
+      0.725
+     ],
+     [
+      "darn",
+      0.724
+     ],
+     [
+      "crummy",
+      0.721
+     ]
+    ],
+    "january": [
+     [
+      "february",
+      0.936
+     ],
+     [
+      "june",
+      0.922
+     ],
+     [
+      "april",
+      0.912
+     ],
+     [
+      "november",
+      0.912
+     ],
+     [
+      "march",
+      0.901
+     ]
+    ],
+    "run": [
+     [
+      "running",
+      0.696
+     ],
+     [
+      "3-for-4",
+      0.693
+     ],
+     [
+      "multi-home",
+      0.688
+     ],
+     [
+      "whistle-stop",
+      0.685
+     ],
+     [
+      "off-year",
+      0.674
+     ]
+    ]
+   }
+  }
+ ],
+ "tiempo_entrenamiento_s": 248.1571967601776,
+ "tiempo_total_s": 259.11089730262756,
+ "hardware": "Intel64 Family 6 Model 191 Stepping 2, GenuineIntel (24 hilos)"
+}

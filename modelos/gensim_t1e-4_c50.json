@@ -1,0 +1,456 @@
+{
+ "config": {
+  "dim": 100,
+  "window": 5,
+  "neg": 5,
+  "t": 0.0001,
+  "min_count": 5,
+  "lr": 0.002,
+  "epochs": 3,
+  "frac": 0.5,
+  "batch": 4096,
+  "name": "t1e-4",
+  "alpha": 0.025,
+  "min_alpha": 0.0001,
+  "workers": 23
+ },
+ "tokens_corpus": 41877000,
+ "vocab_size": 132826,
+ "epochs": [
+  {
+   "epoch": 1,
+   "loss_gensim": 11873473.0,
+   "tiempo_s": 45.709471464157104,
+   "sem": 0.09378407851690294,
+   "syn": 0.19867069486404834,
+   "total": 0.16645733902704513,
+   "ws353": 0.6052560378712915,
+   "ws353_oov": 0.0,
+   "vecinos": {
+    "king": [
+     [
+      "eógan",
+      0.744
+     ],
+     [
+      "1135",
+      0.741
+     ],
+     [
+      "ottokar",
+      0.741
+     ],
+     [
+      "haakon",
+      0.74
+     ],
+     [
+      "consort",
+      0.738
+     ]
+    ],
+    "france": [
+     [
+      "spain",
+      0.783
+     ],
+     [
+      "netherlands",
+      0.764
+     ],
+     [
+      "italy",
+      0.737
+     ],
+     [
+      "belgium",
+      0.735
+     ],
+     [
+      "austria",
+      0.733
+     ]
+    ],
+    "computer": [
+     [
+      "computing",
+      0.83
+     ],
+     [
+      "desktop",
+      0.797
+     ],
+     [
+      "software",
+      0.781
+     ],
+     [
+      "ibm",
+      0.774
+     ],
+     [
+      "point-and-click",
+      0.772
+     ]
+    ],
+    "good": [
+     [
+      "darn",
+      0.735
+     ],
+     [
+      "bad",
+      0.725
+     ],
+     [
+      "tidy",
+      0.722
+     ],
+     [
+      "terribly",
+      0.721
+     ],
+     [
+      "dour",
+      0.71
+     ]
+    ],
+    "january": [
+     [
+      "march",
+      0.865
+     ],
+     [
+      "june",
+      0.851
+     ],
+     [
+      "april",
+      0.826
+     ],
+     [
+      "july",
+      0.82
+     ],
+     [
+      "august",
+      0.812
+     ]
+    ],
+    "run": [
+     [
+      "no-hitters",
+      0.678
+     ],
+     [
+      "nashua",
+      0.676
+     ],
+     [
+      "inaugurate",
+      0.676
+     ],
+     [
+      "roker",
+      0.675
+     ],
+     [
+      "candlestick",
+      0.672
+     ]
+    ]
+   }
+  },
+  {
+   "epoch": 2,
+   "loss_gensim": 11723045.0,
+   "tiempo_s": 42.99378728866577,
+   "sem": 0.22137404580152673,
+   "syn": 0.34332326283987913,
+   "total": 0.30586954701498786,
+   "ws353": 0.6530770756836035,
+   "ws353_oov": 0.0,
+   "vecinos": {
+    "king": [
+     [
+      "anjou",
+      0.723
+     ],
+     [
+      "aquitaine",
+      0.722
+     ],
+     [
+      "coenwulf",
+      0.716
+     ],
+     [
+      "murchad",
+      0.713
+     ],
+     [
+      "1216",
+      0.713
+     ]
+    ],
+    "france": [
+     [
+      "spain",
+      0.824
+     ],
+     [
+      "portugal",
+      0.811
+     ],
+     [
+      "italy",
+      0.772
+     ],
+     [
+      "netherlands",
+      0.77
+     ],
+     [
+      "belgium",
+      0.755
+     ]
+    ],
+    "computer": [
+     [
+      "computing",
+      0.803
+     ],
+     [
+      "computers",
+      0.778
+     ],
+     [
+      "pdp-1",
+      0.774
+     ],
+     [
+      "sgi",
+      0.773
+     ],
+     [
+      "programmable",
+      0.773
+     ]
+    ],
+    "good": [
+     [
+      "decent",
+      0.777
+     ],
+     [
+      "tidy",
+      0.719
+     ],
+     [
+      "darn",
+      0.717
+     ],
+     [
+      "nice",
+      0.714
+     ],
+     [
+      "invigorating",
+      0.71
+     ]
+    ],
+    "january": [
+     [
+      "november",
+      0.89
+     ],
+     [
+      "december",
+      0.89
+     ],
+     [
+      "february",
+      0.885
+     ],
+     [
+      "april",
+      0.88
+     ],
+     [
+      "march",
+      0.879
+     ]
+    ],
+    "run": [
+     [
+      "pre-broadway",
+      0.682
+     ],
+     [
+      ".256",
+      0.671
+     ],
+     [
+      "12-week",
+      0.671
+     ],
+     [
+      "rosecroft",
+      0.668
+     ],
+     [
+      "late-october",
+      0.668
+     ]
+    ]
+   }
+  },
+  {
+   "epoch": 3,
+   "loss_gensim": 11777556.0,
+   "tiempo_s": 43.67410922050476,
+   "sem": 0.3015267175572519,
+   "syn": 0.45885196374622356,
+   "total": 0.4105333668257557,
+   "ws353": 0.6713547176135333,
+   "ws353_oov": 0.0,
+   "vecinos": {
+    "king": [
+     [
+      "1199",
+      0.74
+     ],
+     [
+      "1413",
+      0.729
+     ],
+     [
+      "1383",
+      0.719
+     ],
+     [
+      "honorius",
+      0.718
+     ],
+     [
+      "eógan",
+      0.715
+     ]
+    ],
+    "france": [
+     [
+      "spain",
+      0.857
+     ],
+     [
+      "italy",
+      0.816
+     ],
+     [
+      "netherlands",
+      0.809
+     ],
+     [
+      "portugal",
+      0.8
+     ],
+     [
+      "belgium",
+      0.792
+     ]
+    ],
+    "computer": [
+     [
+      "computers",
+      0.839
+     ],
+     [
+      "programmable",
+      0.794
+     ],
+     [
+      "desktop",
+      0.793
+     ],
+     [
+      "spacewar",
+      0.782
+     ],
+     [
+      "cd-i",
+      0.782
+     ]
+    ],
+    "good": [
+     [
+      "decent",
+      0.783
+     ],
+     [
+      "nice",
+      0.741
+     ],
+     [
+      "bad",
+      0.736
+     ],
+     [
+      "excellent",
+      0.73
+     ],
+     [
+      "tidy",
+      0.721
+     ]
+    ],
+    "january": [
+     [
+      "february",
+      0.944
+     ],
+     [
+      "november",
+      0.934
+     ],
+     [
+      "april",
+      0.932
+     ],
+     [
+      "march",
+      0.928
+     ],
+     [
+      "december",
+      0.924
+     ]
+    ],
+    "run": [
+     [
+      "24-game",
+      0.661
+     ],
+     [
+      ".256",
+      0.66
+     ],
+     [
+      "nashua",
+      0.659
+     ],
+     [
+      "ran",
+      0.65
+     ],
+     [
+      "kdka",
+      0.649
+     ]
+    ]
+   }
+  }
+ ],
+ "tiempo_entrenamiento_s": 132.37736797332764,
+ "tiempo_total_s": 142.7933487892151,
+ "hardware": "Intel64 Family 6 Model 191 Stepping 2, GenuineIntel (24 hilos)"
+}

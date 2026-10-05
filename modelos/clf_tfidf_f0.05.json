@@ -1,0 +1,17 @@
+{
+ "nombre": "tfidf_f0.05",
+ "params_totales": 124396,
+ "params_entrenables": 124396,
+ "n_features": 31098,
+ "n_train": 5400,
+ "tiempo_s": 1.6420056819915771,
+ "mejor_epoch": null,
+ "train_logloss": 0.09819189123999932,
+ "val_logloss": 0.38440287088139075,
+ "val": {
+  "accuracy": 0.88225,
+  "precision": 0.8819122840038596,
+  "recall": 0.88225,
+  "f1": 0.8819850002920646
+ }
+}

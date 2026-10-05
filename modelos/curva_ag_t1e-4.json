@@ -1,0 +1,386 @@
+[
+ {
+  "modelo": "TF-IDF + LR",
+  "frac": 0.01,
+  "n_train": 1080,
+  "f1_test": 0.8143784331195822,
+  "acc_test": 0.8152631578947368,
+  "f1_val": 0.8256255970035369
+ },
+ {
+  "modelo": "Aleatorio (entrenable)",
+  "frac": 0.01,
+  "n_train": 1080,
+  "f1_test": 0.7192464725205626,
+  "acc_test": 0.7194736842105263,
+  "f1_val": 0.7180552380382081
+ },
+ {
+  "modelo": "SGNS congelado",
+  "frac": 0.01,
+  "n_train": 1080,
+  "f1_test": 0.8490895990152938,
+  "acc_test": 0.849078947368421,
+  "f1_val": 0.8542672096210561
+ },
+ {
+  "modelo": "SGNS fine-tuning",
+  "frac": 0.01,
+  "n_train": 1080,
+  "f1_test": 0.8548786908388719,
+  "acc_test": 0.8552631578947368,
+  "f1_val": 0.8642817143060292
+ },
+ {
+  "modelo": "Gensim congelado",
+  "frac": 0.01,
+  "n_train": 1080,
+  "f1_test": 0.8444706084803197,
+  "acc_test": 0.8447368421052631,
+  "f1_val": 0.8506011227278908
+ },
+ {
+  "modelo": "Gensim fine-tuning",
+  "frac": 0.01,
+  "n_train": 1080,
+  "f1_test": 0.8221079525936691,
+  "acc_test": 0.8225,
+  "f1_val": 0.8306016537780773
+ },
+ {
+  "modelo": "GloVe congelado",
+  "frac": 0.01,
+  "n_train": 1080,
+  "f1_test": 0.8575896249899762,
+  "acc_test": 0.8581578947368421,
+  "f1_val": 0.8651732221603974
+ },
+ {
+  "modelo": "GloVe fine-tuning",
+  "frac": 0.01,
+  "n_train": 1080,
+  "f1_test": 0.8471610859755849,
+  "acc_test": 0.8467105263157895,
+  "f1_val": 0.8548370647154647
+ },
+ {
+  "modelo": "TF-IDF + LR",
+  "frac": 0.05,
+  "n_train": 5400,
+  "f1_test": 0.872707625263334,
+  "acc_test": 0.8730263157894737,
+  "f1_val": 0.8819850002920646
+ },
+ {
+  "modelo": "Aleatorio (entrenable)",
+  "frac": 0.05,
+  "n_train": 5400,
+  "f1_test": 0.7783249466304281,
+  "acc_test": 0.7751315789473684,
+  "f1_val": 0.7826083521992864
+ },
+ {
+  "modelo": "SGNS congelado",
+  "frac": 0.05,
+  "n_train": 5400,
+  "f1_test": 0.8665789134550563,
+  "acc_test": 0.8667105263157895,
+  "f1_val": 0.8711315372659802
+ },
+ {
+  "modelo": "SGNS fine-tuning",
+  "frac": 0.05,
+  "n_train": 5400,
+  "f1_test": 0.8871880669659098,
+  "acc_test": 0.8872368421052632,
+  "f1_val": 0.8922511207271011
+ },
+ {
+  "modelo": "Gensim congelado",
+  "frac": 0.05,
+  "n_train": 5400,
+  "f1_test": 0.8691324766463536,
+  "acc_test": 0.8692105263157894,
+  "f1_val": 0.8740075192283464
+ },
+ {
+  "modelo": "Gensim fine-tuning",
+  "frac": 0.05,
+  "n_train": 5400,
+  "f1_test": 0.8760673713744482,
+  "acc_test": 0.8764473684210526,
+  "f1_val": 0.884691148163355
+ },
+ {
+  "modelo": "GloVe congelado",
+  "frac": 0.05,
+  "n_train": 5400,
+  "f1_test": 0.8797497713192943,
+  "acc_test": 0.8797368421052632,
+  "f1_val": 0.88935345664541
+ },
+ {
+  "modelo": "GloVe fine-tuning",
+  "frac": 0.05,
+  "n_train": 5400,
+  "f1_test": 0.8825817992585615,
+  "acc_test": 0.8823684210526316,
+  "f1_val": 0.8902732689848946
+ },
+ {
+  "modelo": "TF-IDF + LR",
+  "frac": 0.1,
+  "n_train": 10800,
+  "f1_test": 0.8874295513683466,
+  "acc_test": 0.8877631578947368,
+  "f1_val": 0.8968620033479862
+ },
+ {
+  "modelo": "Aleatorio (entrenable)",
+  "frac": 0.1,
+  "n_train": 10800,
+  "f1_test": 0.8427136711256293,
+  "acc_test": 0.8427631578947369,
+  "f1_val": 0.8547447854459334
+ },
+ {
+  "modelo": "SGNS congelado",
+  "frac": 0.1,
+  "n_train": 10800,
+  "f1_test": 0.8782080958676316,
+  "acc_test": 0.8782894736842105,
+  "f1_val": 0.8821290941287551
+ },
+ {
+  "modelo": "SGNS fine-tuning",
+  "frac": 0.1,
+  "n_train": 10800,
+  "f1_test": 0.8925009467083947,
+  "acc_test": 0.8926315789473684,
+  "f1_val": 0.9009830182686889
+ },
+ {
+  "modelo": "Gensim congelado",
+  "frac": 0.1,
+  "n_train": 10800,
+  "f1_test": 0.8741828607859043,
+  "acc_test": 0.8742105263157894,
+  "f1_val": 0.8817487912800411
+ },
+ {
+  "modelo": "Gensim fine-tuning",
+  "frac": 0.1,
+  "n_train": 10800,
+  "f1_test": 0.892949803649173,
+  "acc_test": 0.8930263157894737,
+  "f1_val": 0.8999179030872424
+ },
+ {
+  "modelo": "GloVe congelado",
+  "frac": 0.1,
+  "n_train": 10800,
+  "f1_test": 0.885319413621017,
+  "acc_test": 0.8855263157894737,
+  "f1_val": 0.8933676397077751
+ },
+ {
+  "modelo": "GloVe fine-tuning",
+  "frac": 0.1,
+  "n_train": 10800,
+  "f1_test": 0.8959900220402197,
+  "acc_test": 0.8960526315789473,
+  "f1_val": 0.9034032458018909
+ },
+ {
+  "modelo": "TF-IDF + LR",
+  "frac": 0.25,
+  "n_train": 27000,
+  "f1_test": 0.9032315386222998,
+  "acc_test": 0.9034210526315789,
+  "f1_val": 0.9081953721502632
+ },
+ {
+  "modelo": "Aleatorio (entrenable)",
+  "frac": 0.25,
+  "n_train": 27000,
+  "f1_test": 0.8787170825641544,
+  "acc_test": 0.8789473684210526,
+  "f1_val": 0.8827965119064602
+ },
+ {
+  "modelo": "SGNS congelado",
+  "frac": 0.25,
+  "n_train": 27000,
+  "f1_test": 0.880352936406031,
+  "acc_test": 0.8801315789473684,
+  "f1_val": 0.8834499159063096
+ },
+ {
+  "modelo": "SGNS fine-tuning",
+  "frac": 0.25,
+  "n_train": 27000,
+  "f1_test": 0.906013155781652,
+  "acc_test": 0.9060526315789473,
+  "f1_val": 0.9108142773010218
+ },
+ {
+  "modelo": "Gensim congelado",
+  "frac": 0.25,
+  "n_train": 27000,
+  "f1_test": 0.8802129182305625,
+  "acc_test": 0.8802631578947369,
+  "f1_val": 0.8857062884913615
+ },
+ {
+  "modelo": "Gensim fine-tuning",
+  "frac": 0.25,
+  "n_train": 27000,
+  "f1_test": 0.9051478848116635,
+  "acc_test": 0.9051315789473684,
+  "f1_val": 0.9104087192387411
+ },
+ {
+  "modelo": "GloVe congelado",
+  "frac": 0.25,
+  "n_train": 27000,
+  "f1_test": 0.8895524223214001,
+  "acc_test": 0.8896052631578948,
+  "f1_val": 0.8966723246985234
+ },
+ {
+  "modelo": "GloVe fine-tuning",
+  "frac": 0.25,
+  "n_train": 27000,
+  "f1_test": 0.9048348089150362,
+  "acc_test": 0.905,
+  "f1_val": 0.9135022463154566
+ },
+ {
+  "modelo": "TF-IDF + LR",
+  "frac": 0.5,
+  "n_train": 54000,
+  "f1_test": 0.9088557009005451,
+  "acc_test": 0.9090789473684211,
+  "f1_val": 0.913537596326851
+ },
+ {
+  "modelo": "Aleatorio (entrenable)",
+  "frac": 0.5,
+  "n_train": 54000,
+  "f1_test": 0.8894012009860875,
+  "acc_test": 0.8894736842105263,
+  "f1_val": 0.8971755054567809
+ },
+ {
+  "modelo": "SGNS congelado",
+  "frac": 0.5,
+  "n_train": 54000,
+  "f1_test": 0.884140862612813,
+  "acc_test": 0.8843421052631579,
+  "f1_val": 0.8891992182291089
+ },
+ {
+  "modelo": "SGNS fine-tuning",
+  "frac": 0.5,
+  "n_train": 54000,
+  "f1_test": 0.9104238356007247,
+  "acc_test": 0.9105263157894737,
+  "f1_val": 0.9171712089282753
+ },
+ {
+  "modelo": "Gensim congelado",
+  "frac": 0.5,
+  "n_train": 54000,
+  "f1_test": 0.883017479497071,
+  "acc_test": 0.8828947368421053,
+  "f1_val": 0.8899779873105721
+ },
+ {
+  "modelo": "Gensim fine-tuning",
+  "frac": 0.5,
+  "n_train": 54000,
+  "f1_test": 0.9101573099862013,
+  "acc_test": 0.9102631578947369,
+  "f1_val": 0.916733227532952
+ },
+ {
+  "modelo": "GloVe congelado",
+  "frac": 0.5,
+  "n_train": 54000,
+  "f1_test": 0.8965446774886529,
+  "acc_test": 0.8967105263157895,
+  "f1_val": 0.905925327324518
+ },
+ {
+  "modelo": "GloVe fine-tuning",
+  "frac": 0.5,
+  "n_train": 54000,
+  "f1_test": 0.9115315807509417,
+  "acc_test": 0.911578947368421,
+  "f1_val": 0.9182800380373922
+ },
+ {
+  "modelo": "TF-IDF + LR",
+  "frac": 1.0,
+  "n_train": 108000,
+  "f1_test": 0.9198354291617419,
+  "acc_test": 0.92,
+  "f1_val": 0.9219937254939202
+ },
+ {
+  "modelo": "Aleatorio (entrenable)",
+  "frac": 1.0,
+  "n_train": 108000,
+  "f1_test": 0.906311470053969,
+  "acc_test": 0.9063157894736842,
+  "f1_val": 0.9108318521335981
+ },
+ {
+  "modelo": "SGNS congelado",
+  "frac": 1.0,
+  "n_train": 108000,
+  "f1_test": 0.8899055667378316,
+  "acc_test": 0.8898684210526315,
+  "f1_val": 0.8946101011623373
+ },
+ {
+  "modelo": "SGNS fine-tuning",
+  "frac": 1.0,
+  "n_train": 108000,
+  "f1_test": 0.9181093050957534,
+  "acc_test": 0.9182894736842105,
+  "f1_val": 0.9208979388029431
+ },
+ {
+  "modelo": "Gensim congelado",
+  "frac": 1.0,
+  "n_train": 108000,
+  "f1_test": 0.8892028467330269,
+  "acc_test": 0.8893421052631579,
+  "f1_val": 0.8956344650280977
+ },
+ {
+  "modelo": "Gensim fine-tuning",
+  "frac": 1.0,
+  "n_train": 108000,
+  "f1_test": 0.917595643369801,
+  "acc_test": 0.9177631578947368,
+  "f1_val": 0.921411468215773
+ },
+ {
+  "modelo": "GloVe congelado",
+  "frac": 1.0,
+  "n_train": 108000,
+  "f1_test": 0.9024873498233179,
+  "acc_test": 0.9026315789473685,
+  "f1_val": 0.9093525649553191
+ },
+ {
+  "modelo": "GloVe fine-tuning",
+  "frac": 1.0,
+  "n_train": 108000,
+  "f1_test": 0.9173521929382044,
+  "acc_test": 0.9175,
+  "f1_val": 0.9215245197760737
+ }
+]

@@ -51,6 +51,7 @@ lightning_logs/
 *.ckpt
 *.pkl
 *.pickle
+*.joblib
 
 # ---------- Resultados / figuras generadas ----------
 outputs/
@@ -63,3 +64,14 @@ figures/
 *.swp
 .DS_Store
 Thumbs.db
+
+
+# ---------- Archivos pesados del lab 7 ----------
+modelos/corpus_*.txt
+modelos/sgns_mejor_word2vec.txt
+
+# Excepción: vectores de los modelos finales (entregable + necesarios para el inciso 5)
+!modelos/sgns_t1e-4.kv
+!modelos/sgns_t1e-4.kv.vectors.npy
+!modelos/gensim_t1e-4_c100.kv
+!modelos/gensim_t1e-4_c100.kv.vectors.npy
